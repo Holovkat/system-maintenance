@@ -1,0 +1,4 @@
+interface:
+  display_name: "System Maintenance — Storage"
+  short_description: "Audit disk space and clean approved items"
+  default_prompt: "Use $system-maintenance:storage to inspect disk usage and show cleanup candidates in tables."

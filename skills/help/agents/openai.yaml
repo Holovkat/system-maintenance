@@ -1,0 +1,4 @@
+interface:
+  display_name: "System Maintenance — Help"
+  short_description: "Show the system maintenance toolbox"
+  default_prompt: "Use $system-maintenance:help to show the available maintenance tools."

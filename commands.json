@@ -1,0 +1,32 @@
+{
+  "namespace": "system-maintenance",
+  "commands": [
+    {
+      "name": "help",
+      "summary": "Show this toolbox and its available tools.",
+      "skill": "skills/help/SKILL.md",
+      "read_only": true
+    },
+    {
+      "name": "storage",
+      "summary": "Automatically collect native storage evidence, evaluate with System 1 and report for owner approval.",
+      "skill": "skills/storage/SKILL.md",
+      "entry": "scripts/storage_runner.py",
+      "read_only": false
+    },
+    {
+      "name": "recover",
+      "summary": "One read-only invocation: native deep collection → System 1 → approval handoff tables. No cleanup.",
+      "skill": "skills/storage/SKILL.md",
+      "entry": "scripts/storage_runner.py",
+      "read_only": true
+    },
+    {
+      "name": "session",
+      "summary": "Resume a cleanup checklist, apply System 1 rubrics, review exceptions and execute approved plans.",
+      "skill": "skills/storage/SKILL.md",
+      "entry": "scripts/storage_session.py",
+      "read_only": false
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "system-maintenance",
+  "version": "0.3.1",
+  "description": "One-invocation native storage discovery, direct System 1 rubrics, explicit fallout and owner approval handoff.",
+  "author": { "name": "Tony Holovka" },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "System Maintenance",
+    "developerName": "Tony Holovka",
+    "shortDescription": "Resumable, approval-gated storage cleanup",
+    "longDescription": "A deterministic read-only runner collects native storage evidence and sends it directly to System 1, then writes eligible/protected/fallout tables for the agent's final analysis and owner handoff. Persistent sessions retain evidence, reviews and exact-plan approvals. Discovery never runs cleanup or invents missing facts.",
+    "category": "Developer Tools",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": ["system-maintenance:help", "system-maintenance:storage — discover recoverable space and report for approval"]
+  }
+}
